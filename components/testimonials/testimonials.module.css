@@ -1,0 +1,26 @@
+.testimonials_container {
+  width: 100%;
+  height: auto;
+  padding: 96px 0;
+}
+
+.testimonials_item {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow-x: hidden;
+    padding: 96px 192px;
+    line-height: 58px;
+    background: var(--color_background_pink);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.testimonials_image {
+    display: flex;
+    flex-direction: row;
+    margin: 24px auto 0;
+    font-size: 14px;
+    line-height: 20px;
+    align-items: center;
+}

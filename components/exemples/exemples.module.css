@@ -1,0 +1,49 @@
+.exemple {
+    padding: 96px 0;
+}
+
+.exemple img {
+    width: 100%;
+}
+
+.text {
+    text-align: center;
+}
+
+.header_title {
+    font-size: 40px;
+    margin: 0 auto 32px;
+    text-align: center;
+}
+
+.header_subtitle {
+    max-width: 600px;
+    font: 16px "Inter var";
+    margin: 24px auto 64px; 
+    text-align: center;
+}
+
+.h3_subtitle {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 32px 40px 8px;
+}
+
+.grid_exemple {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 24px;
+    font-style: 16px;
+    margin: 0 auto;
+}
+
+.single_exemple {
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 50%;
+    padding: 16px 40px;
+}
